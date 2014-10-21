@@ -1,0 +1,367 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>SSN Lakshya</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <style>
+
+    /* GLOBAL STYLES
+    -------------------------------------------------- */
+
+    body {
+      padding-bottom: 40px;
+      color: #5a5a5a;
+    }
+
+
+
+    /* CUSTOMIZE THE NAVBAR
+    -------------------------------------------------- */
+
+    .navbar-wrapper {
+      position: absolute;
+      top: 0;
+      left: 100;
+      right: 0;
+      z-index: 10;
+      margin-top: 20px;
+      margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+    }
+    .navbar-wrapper .navbar {
+	
+
+    }
+
+
+    .navbar .navbar-inner {
+      border: 0;
+      -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+         -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+              box-shadow: 0 2px 10px rgba(0,0,0,.25);
+    }
+
+
+    .navbar .brand {
+      padding: 14px 20px 16px; 
+      font-size: 16px;
+      font-weight: bold;
+      text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    }
+
+
+    .navbar .nav > li > a {
+      padding: 15px 20px;
+    }
+
+
+    .navbar .btn-navbar {
+      margin-top: 10px;
+    }
+
+
+
+    /* CUSTOMIZE THE CAROUSEL
+    -------------------------------------------------- */
+
+    .carousel {
+      margin-bottom: 60px;
+    }
+
+    .carousel .container {
+      position: relative;
+      z-index: 9;
+    }
+
+    .carousel-control {
+      height: 80px;
+      margin-top: 0;
+      font-size: 120px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      background-color: transparent;
+      border: 0;
+      z-index: 10;
+    }
+
+    .carousel .item {
+      height: 500px;
+    }
+    .carousel img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 500px;
+    }
+
+    .carousel-caption {
+      background-color: transparent;
+      position: static;
+      max-width: 550px;
+      padding: 0 20px;
+      margin-top: 200px;
+    }
+    .carousel-caption h1,
+    .carousel-caption .lead {
+      margin: 0;
+      line-height: 1.25;
+      color: #fff;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    }
+    .carousel-caption .btn {
+      margin-top: 10px;
+    }
+    
+    .jumbotron {
+        margin: 80px 0;
+        text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 100px;
+        line-height: 1;
+      }
+      .jumbotron .lead {
+        font-size: 24px;
+        line-height: 1.25;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+
+
+
+
+
+
+
+
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (max-width: 979px) {
+
+      .container.navbar-wrapper {
+        margin-bottom: 0;
+        width: auto;
+      }
+      .navbar-inner {
+        border-radius: 0;
+        margin: -20px 0;
+      }
+
+      .carousel .item {
+        height: 500px;
+      }
+      .carousel img {
+        width: auto;
+        height: 500px;
+      }
+
+      .featurette {
+        height: auto;
+        padding: 0;
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        display: block;
+        float: none;
+        max-width: 40%;
+        margin: 0 auto 20px;
+      }
+    }
+
+
+    @media (max-width: 767px) {
+
+      .navbar-inner {
+        margin: -20px;
+      }
+
+      .carousel {
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+      .carousel .container {
+
+      }
+      .carousel .item {
+        height: 300px;
+      }
+      .carousel img {
+        height: 300px;
+      }
+      .carousel-caption {
+        width: 65%;
+        padding: 0 70px;
+        margin-top: 100px;
+      }
+      .carousel-caption h1 {
+        font-size: 30px;
+      }
+      .carousel-caption .lead,
+      .carousel-caption .btn {
+        font-size: 18px;
+      }
+
+      .marketing .span4 + .span4 {
+        margin-top: 40px;
+      }
+
+      .featurette-heading {
+        font-size: 30px;
+      }
+      .featurette .lead {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+
+    }
+    </style>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body>
+
+
+
+    <!-- NAVBAR
+    ================================================== -->
+	    <a href="index.html"> <img src="img/n1.jpg" height="200" width="200"></a>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse">
+          <div class="navbar-inner">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="brand" href="index.html">Home</a>
+                 <div class="nav-collapse collapse">
+              <ul class="nav">
+                <li><a href="about.html">About us</a></li>
+
+                <li><a href="events.html">Events</a></li>
+                <li><a href="eweek.html">E-Week</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="announcements.php">Announcements</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+				<li><a href="nen.html">What is NEN?</a></li>
+				
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+</br></br></br>
+<img src="img/manageposter.jpg">
+</br></br>
+ <div class="row-fluid">
+        <div class="span9 offset1">
+<h3>Identifying Budding Business Managers for Exceptional Management Careers</h3> – An innovative approach – From The Elitists</br>
+
+<p><u>Current Scenario</u> :- Best in class students & many of the brightest minds at several premier engineering colleges in India are increasingly attracted to various exciting management career opportunities that are emerging in a vibrant India. The single largest chunk of CAT/XAT aspirants, for instance, are Engineers (With/Without experience) Despite this, unfortunately, for various reasons, several bright students are still not aware of most of these options (Especially the options that exist beyond “Campus Recruitment”).</p></br>
+
+<p><u>About The Elitists</u> :-  The Elitists, an IIM Alumni venture started over a decade ago & is an ultra exclusive, select client & executive talent focussed,relationships,metrics & results driven, pure play,super specialist,strategic business outcome/growth accelerator,providing world class organizations open to innovative approaches in executive talent acquisition & exceptional,consistent Top quartile performance track record demonstrated, proven Executive Talent open to exploring exceptional career opportunities, unique benefits. Operating at the highest end of the strategic talent acquisition consulting value chain, The Elitists partners with its clients through its offices in New York & Chennai  To understand our business at a higher level of granularity, we invite you to review us at <a href="http://theelitists.com">www.theelitists.com</a> </p></br>
+</br>
+<h3>Budding Business Manager Contest</h3>
+
+<p>The “Budding Business Manager” contest  is an innovative & currently unique attempt from The Elitists to identify best in class Engineers , who in the opinion of The Elitists :-</br>
+
+a)	Demonstrate significant general managerial potential & </br>
+b)	With the right guidance & support, would be delighted to work hard towards strengthening & unleashing their potential to achieve greater heights, faster. </br>
+</p>
+</br>
+<u>Eligibility Criteria</u> :-  Any First/Second/Third/Final Year student of these colleges from any department/specialization (For the On Campus event). Since our selection process is robust & rigorous, there is no specified minimum academic eligibility criteria to register for this event.</br>
+<p>
+The Elitists extends a special invitation to students :-
+-	Who think they have the Values, Intellectual caliber & Leadership skills to become a highly respected business manager (IIM/XLRI/Top 50 Global B-School quality) of the future. & </br>
+-	Who are enthralled by world class Business Leaders & Businesses</br>
+-	Who are passionate about architecting their career in the fascinating World of Management.</br>
+</p>
+</br>
+<u>Agenda</u> :</br> 
+<p>
+<b>Session 1 : 30th July 2013, 2:00 PM</b></br>
+	
+•	Mr. Venkatesh, founder and CEO of The Elitists will be addressing the audience. He will talk about career opportunities available in today’s world and the importance of being aware of each and every opportunity available.</br>
+•	Following this, all the interested students will be asked to fill up the “Budding Business Manager” Application Blank. This is will be the first stage of the “Budding Business Manager Contest”.</br>
+•	The Elitists will review all the submitted forms and the selected participants will go on to the forthcoming stages in the contest. </br>
+</p>
+</br>
+<p>
+<b>Session 2 : 1st August 2013, 9:00 AM</b></br>
+<p>
+•	Shortlisted applicants would be evaluated on the basis of the following rounds. :-</br>
+i)	Written Business Quiz for about 20 minutes.</br>
+ii)	Presentation round – Participants would be asked to :-</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Present responses to specific queries &
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	Analyze an Industry or an Organization & be quizzed on the same.
+iii)	Case Study round with a Group Interview Format.</br>
+iv)	Personal Interview round.</br>
+</p>
+</br>
+<p>
+<u>Winner Benefits</u> :-
+-	Certification of your latent/budding managerial skills by an expert from a super-specialist firm.</br>
+-	Potential opportunity to be engaged, groomed & mentored by senior IIM Alumni & seasoned business managers.</br>
+-	An opportunity to work with senior IIM Alumni & Intern in an exceptionally enriching, high profile management consulting role with a good stipend.</br>
+-	This knowledge & experience will distinctively differentiate the candidate’s profile if the candidate is aiming to join a Premier B-School ( IIM's/XLRI/Other Premier B-School in India/Internationally) in the future.</br>
+-	Best in class interns could get a Pre Placement Interview/Offer from The Elitists.</br>
+</p>
+</br>
+</div>
+</div>
+</br>
+<hr>
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2013 SSN Lakshya. All Rights Received.</p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+    <script src="js/bootstrap-alert.js"></script>
+    <script src="js/bootstrap-modal.js"></script>
+    <script src="js/bootstrap-dropdown.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/bootstrap-tab.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script src="js/bootstrap-button.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <script src="js/bootstrap-typeahead.js"></script>
+    <script>
+      !function ($) {
+        $(function(){
+          // carousel demo
+          $('#myCarousel').carousel()
+        })
+      }(window.jQuery)
+    </script>
+    <script src="js/holder/holder.js"></script>
+  </body>
+</html>
